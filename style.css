@@ -80,6 +80,11 @@ body {
     #header {
       left: -280px;
     }
+      
+     @media (min-width: 768px) {
+    #header {
+      left: -250px;
+    }
 
   
     #main {
