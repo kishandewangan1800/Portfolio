@@ -168,8 +168,8 @@ body {
   }
   #hero .hero-container {
     position: relative;
-    left: 60px;
-    top: 200px;
+    left: 50px;
+    top: 180px;
     /* z-index: auto; */
     min-width: 300px;
   }
@@ -200,8 +200,8 @@ body {
   }
   @media (max-width: 768px) {
     #hero h1 {
-      font-size: 35px;
-      line-height: 45px;
+      font-size: 28px;
+      line-height: 36px;
     }
     #hero h2 {
       font-size: 18px;
