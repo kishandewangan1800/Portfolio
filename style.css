@@ -73,17 +73,12 @@ body {
   }
   
   #main {
-    margin-left: 280px;
+    margin-left: 350px;
   }
   
   @media (max-width: 1199px) {
     #header {
-      left: -280px;
-    }
-      
-     @media (min-width: 768px) {
-    #header {
-      left: -250px;
+      left: -300px;
     }
 
   
@@ -173,15 +168,15 @@ body {
   }
   #hero .hero-container {
     position: relative;
-    left: 40px;
-    top: 170px;
-    /* z-index: auto; */
-    min-width: 280px;
+    /* left: 60px;
+    top: 200px; */
+    z-index: 1;
+    min-width: 300px;
   }
   #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 60px;
-    font-weight: 400;
+    font-size: 64px;
+    font-weight: 700;
     line-height: 56px;
     color: black;
     text-shadow: 2.5px 2.5px 50px #149ddd;
@@ -205,17 +200,15 @@ body {
   }
   @media (max-width: 768px) {
     #hero h1 {
-      font-size: 25px;
-      line-height: 32px;
+      font-size: 35px;
+      line-height: 45px;
     }
     #hero h2 {
-      font-size: 16px;
-      line-height: 22px;
-      margin-bottom: 28px;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
     }
   }
-
-
 
   section {
     padding: 60px 0;
